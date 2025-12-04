@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card{
+    height: 520px;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 12px;
+}
+
+.img-main{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.cabecalho{
+    margin: 5% 8%;
+}
+
+.cabecalho h1{
+    color: white;
+    margin-bottom: 5%;
+    font-size: 20px;
+}
+
+.cabecalho p{
+    color: hsl(215, 51%, 70%);
+    width: 100%;
+    font-weight: 300;
+}
+
+.img-ethereum{
+    width: 15px;
+    margin: 7%;
+    
+}
+
+.ethereum{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 7%;
+}
+
+.ethereum span{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.ethereum p{
+    font-size: 16px;
+    width: 100px;
+}
+
+.ethereum-days img{
+    width: 25px;
+}
+
+.ethereum-days{
+    display: flex;
+    align-items: center;
+    margin-left: 14%;
+    ;
+}
+
+.ethereum-days p{
+    font-size: 16px;
+    margin-left: 6%;
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+}
+
+.criadora img{
+    width: 40px;
+    margin: 5%;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.criadora{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.criadora p{
+    color: white;
+}
+
+.criadora span{
+    color: hsl(215, 51%, 70%);
+}
